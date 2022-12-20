@@ -11,12 +11,12 @@ import org.springframework.stereotype.Controller;
 public class XmlInjectionEx {
 
 	// servlet-context.xml 파일의 객체를 주입
-	@Autowired
-	private BCryptPasswordEncoder bCryptPasswordEncoder;
+	//@Autowired
+	//private BCryptPasswordEncoder bCryptPasswordEncoder;
 	
 	// root-context.xml 파일의 객체를 주입
-	@Autowired
-	private SqlSession sqlSession;
+	//@Autowired
+	//private SqlSession sqlSession;
 	
 	
 }
